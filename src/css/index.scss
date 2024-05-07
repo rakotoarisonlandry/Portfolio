@@ -11,14 +11,13 @@
   }
   .sidebar-link-container {
     font-size: 15px;
-    font-weight: 540;
+    font-weight: 500;
     color: white;
     text-decoration: none;
     margin-left: 2px;
-    .sidebar-Link{
-        margin-bottom: -2px;
-    }   
-
+    .sidebar-Link {
+      margin-bottom: -2px;
+    }
 
     &:hover,
     &.active {
@@ -26,39 +25,151 @@
     }
     .SideBar-icon {
       padding-right: 20px;
-      
     }
   }
 }
-.SideBarFooter{
-    position: absolute;
-    bottom: 5px;
-    left: 5px;
+.SideBarFooter {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
 }
 
 //Footer
-.footerTypography{
-    color: #9B46E4;
-    font-size: 11px;
-    text-decoration: underline;
-    text-align: center;
-    &:hover,
-    &.active {
-      color: #7834B4;
-    }
+.footerTypography {
+  color: #9b46e4;
+  font-size: 11px;
+  text-decoration: underline;
+  text-align: center;
+  &:hover,
+  &.active {
+    color: #7834b4;
+  }
 }
-.footerCopyright{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    
+.footerCopyright {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 //Home
+.Home-img-blur {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+}
 
-.Home-Body{
-    img{
-        height: 80px;
+.Home-Body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 84px;
+
+  .Home-container {
+    .Home-hello {
+      height: 60px;
+      margin-left: -19px;
     }
+
+    .Home-Title {
+      font-weight: bold 700 !important;
+      font-family: "Poppins", sans-serif;
+      color: #8720df;
+      font-size: 30px;
+
+      span {
+        color: #ffffff;
+        font-weight: 600;
+      }
+    }
+
+    .Home-Title-typical {
+      /* Supprimer la déclaration font-weight */
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+      font-weight: 600;
+      margin-top: 14px;
+    }
+
+    .Typo-body1 {
+      color: #ffffff;
+      opacity: 80%;
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      margin-top: -27px;
+      padding-bottom: 15px;
+    }
+
+    .Typo-body2 {
+      width: 72%;
+      text-align: justify;
+      font-family: "Poppins", sans-serif;
+      color: #ffffff;
+      opacity: 59%;
+      font-size: 13px;
+      margin-bottom: 35px;
+    }
+    .home-Link {
+      .home-Button {
+        padding: 6px 25px;
+        color: #8622dc;
+        font-size: 15px;
+        border: 1px solid #8622dc;
+        border-radius: 10px;
+        background-color: #101010;
+        &:hover,
+        &.active {
+          background-color: #111c1c;
+        }
+      }
+    }
+  }
+  .Home-portrait {
+    z-index: 200;
+    padding-right: 94px;
+  }
+}
+
+//animation fast
+.scroll {
+  position: relative;
+  width: 98%;
+  height: 200px;
+  background-color:#8720DF;
+  overflow: hidden;
+  z-index: 1;
+  margin: 0 20px;
+  padding: 0;
+  img {
+    height: 200px;
+    min-width: 400px;
+  }
+  .m-scroll {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: scrollText 20s infinite linear;
+    margin: 0;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    height: 200px;
+    span {
+      display: inline-block;
+      width: fit-content;
+      margin: 0 20px;
+      padding: 0;
+      color: white;
+    }
+
+    span.blank {
+      width: 500px !important;
+    }
+
+    span.FARAL {
+      width: 800px !important;
+    }
+  }
 }
