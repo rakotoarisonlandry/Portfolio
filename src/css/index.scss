@@ -65,6 +65,7 @@
   align-items: center;
   justify-content: center;
   margin-left: 84px;
+  margin-top: 45px;
 
   .Home-container {
     .Home-hello {
@@ -89,7 +90,7 @@
       font-family: "Poppins", sans-serif;
       font-size: 30px;
       font-weight: 600;
-      margin-top: 14px;
+      margin-top: 1px;
     }
 
     .Typo-body1 {
@@ -131,45 +132,38 @@
   }
 }
 
-//animation fast
-.scroll {
-  position: relative;
-  width: 98%;
-  height: 200px;
-  background-color:#8720DF;
+//Home Component
+.fast-Container {
+  width: 100%;
+  margin-top: 75px;
   overflow: hidden;
   z-index: 1;
-  margin: 0 20px;
   padding: 0;
-  img {
-    height: 200px;
-    min-width: 400px;
-  }
-  .m-scroll {
+  background-image: linear-gradient(
+    90deg,
+    rgba(135, 32, 223, 1),
+    rgba(73, 17, 121, 0.43)
+  );
+
+  .fast-marque {
     overflow: hidden;
     white-space: nowrap;
-    animation: scrollText 20s infinite linear;
     margin: 0;
     font-size: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: fit-content;
-    height: 200px;
+    height: 50px;
     span {
       display: inline-block;
       width: fit-content;
-      margin: 0 20px;
-      padding: 0;
+      padding: 0 40px;
       color: white;
-    }
-
-    span.blank {
-      width: 500px !important;
-    }
-
-    span.FARAL {
-      width: 800px !important;
+      .img-fast {
+        height: 20px;
+        width: 200%;
+      }
     }
   }
 }
