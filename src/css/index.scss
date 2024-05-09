@@ -21,7 +21,7 @@
 
     &:hover,
     &.active {
-      color: #4cfbf6;
+      color: #9b46e4;
     }
     .SideBar-icon {
       padding-right: 20px;
@@ -42,7 +42,7 @@
   text-align: center;
   &:hover,
   &.active {
-    color: #7834b4;
+    color: #491179;
   }
 }
 .footerCopyright {
@@ -76,7 +76,7 @@
     .Home-Title {
       font-weight: bold 700 !important;
       font-family: "Poppins", sans-serif;
-      color: #8720df;
+      color: #9b46e4;
       font-size: 30px;
 
       span {
@@ -90,6 +90,7 @@
       font-family: "Poppins", sans-serif;
       font-size: 30px;
       font-weight: 600;
+      color: #ffffff;
       margin-top: 1px;
     }
 
@@ -114,9 +115,9 @@
     .home-Link {
       .home-Button {
         padding: 6px 25px;
-        color: #8622dc;
+        color: #9b46e4;
         font-size: 15px;
-        border: 1px solid #8622dc;
+        border: 1px solid #9b46e4;
         border-radius: 10px;
         background-color: #101010;
         &:hover,
@@ -141,8 +142,8 @@
   padding: 0;
   background-image: linear-gradient(
     90deg,
-    rgba(135, 32, 223, 1),
-    rgba(73, 17, 121, 0.43)
+    #8720DF,
+    #491179
   );
 
   .fast-marque {

@@ -21,12 +21,12 @@ function SideBar() {
               <Box
                 display="flex"
                 padding="2px"
-                sx={{ color: "#4CFBF6" }}
+                sx={{ color: "#9b46e4" }}
                 className="sidebar-Link"
                 fontWeight=""
                 alignItems="center"
               >
-                <HomeIcon sx={{ color: "#4CFBF6" }} className="SideBar-icon" />
+                <HomeIcon sx={{ color: "#9b46e4" }} className="SideBar-icon" />
                 Presentation
               </Box>
             </Link>
