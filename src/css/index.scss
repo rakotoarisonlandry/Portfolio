@@ -55,7 +55,7 @@
 //Home
 .Home-img-blur {
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   top: 0;
   right: 0;
 }
@@ -64,7 +64,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 84px;
+  margin-left: 85px;
   margin-top: 45px;
 
   .Home-container {
@@ -129,7 +129,7 @@
   }
   .Home-portrait {
     z-index: 200;
-    padding-right: 94px;
+    padding-right: 46px;
   }
 }
 
