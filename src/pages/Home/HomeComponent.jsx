@@ -10,7 +10,7 @@ function HomeComponent() {
       <Marquee
         className="fast-marque"
         gradient={false}
-        speed={40}
+        speed={60}
         pauseOnHover={true}
         pauseOnClick={true}
         delay={0}
