@@ -225,12 +225,13 @@
         }
       }
       .Img-Contact {
-        border-radius: 15px;
         img {
+          border-radius: 15px;
           transition: transform 0.3s ease-in-out;
         }
         img:hover {
-          transform: scale(1.1);
+          transform: scale(0.99);
+          background-color: rgba(0, 0, 0, 0.5)
         }
       }
     }
