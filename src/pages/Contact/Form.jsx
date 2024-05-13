@@ -5,7 +5,7 @@ function Form() {
   return (
     <Box>
       <Box>
-        Dorm
+        Form
       </Box>
     </Box>
   )
