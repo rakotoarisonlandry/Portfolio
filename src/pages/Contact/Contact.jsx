@@ -5,10 +5,12 @@ import { Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 function Contact() {
   return (
-    <Container className="Contact-Container">
-      <Typography variant="H2" className="contact-Title">
-        Contact Me
-      </Typography>
+    <Box className="Contact-Container">
+      <Container className="container-Title">
+        <Typography variant="H2" className="contact-Title">
+          Contact Me
+        </Typography>
+      </Container>
       <Box className="Form-contact-container">
         <Box>
           <img src="" alt="" />
@@ -34,7 +36,7 @@ function Contact() {
           <Form />
         </Box>
       </Box>
-    </Container>
+    </Box>
   );
 }
 
