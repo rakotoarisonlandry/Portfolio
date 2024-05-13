@@ -140,11 +140,7 @@
   overflow: hidden;
   z-index: 1;
   padding: 0;
-  background-image: linear-gradient(
-    90deg,
-    #8720DF,
-    #491179
-  );
+  background-image: linear-gradient(90deg, #8720df, #491179);
 
   .fast-marque {
     overflow: hidden;
@@ -166,5 +162,22 @@
         width: 200%;
       }
     }
+  }
+}
+
+//Contact
+
+.Contact-Container {
+
+  width: 100vh;
+  .contact-Title {
+    text-align: center;
+    justify-content: center;
+    margin: auto 50% !important;
+    
+  }
+  .Form-contact-container{
+    display: flex;
+
   }
 }
