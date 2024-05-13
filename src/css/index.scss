@@ -168,16 +168,19 @@
 //Contact
 
 .Contact-Container {
-
+  margin-top: 15px;
+  // margin: auto 50;
   width: 100vh;
-  .contact-Title {
-    text-align: center;
-    justify-content: center;
-    margin: auto 50% !important;
-    
+  .container-Title {
+    .contact-Title {
+      text-align: center;
+      justify-content: center;
+      margin: auto 50% !important;
+      font-size: 20px;
+      padding-top: 20px;
+    }
   }
-  .Form-contact-container{
+  .Form-contact-container {
     display: flex;
-
   }
 }
