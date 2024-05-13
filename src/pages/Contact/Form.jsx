@@ -3,7 +3,11 @@ import React from 'react'
 
 function Form() {
   return (
-    <Box>Form</Box>
+    <Box>
+      <Box>
+        Dorm
+      </Box>
+    </Box>
   )
 }
 
