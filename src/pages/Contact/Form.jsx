@@ -1,31 +1,31 @@
-import { Box } from "@mui/material";
 import React from "react";
+import { Box } from "@mui/material";
 
 function Form() {
   return (
     <Box>
-      <Box className="flex-input">
+      <Box className="Form-First-input">
         <Box>
           <label htmlFor="name">Your Name</label>
-          <input type="text" placeholder="ex:Rakoto" />
+          <input type="text" id="name" placeholder="ex: Rakoto" />
         </Box>
         <Box>
-          <label htmlFor="PhoneNumber">Phone Number</label>
-          <input type="text" placeholder="xxxxxxxxxx" />
+          <label htmlFor="phoneNumber">Phone Number</label>
+          <input type="text" id="phoneNumber" placeholder="xxxxxxxxxx" />
         </Box>
       </Box>
-        <Box>
-          <label htmlFor="Email">Email</label>
-          <input type="text" placeholder="example@gmail.com" />
-        </Box>
-        <Box>
-          <label htmlFor="Subject">Subject</label>
-          <input type="text" placeholder="Lorem" />
-        </Box>
-        <Box>
-          <label htmlFor="Message">Message</label>
-          <input type="text" placeholder="Lorem" />
-        </Box>
+      <Box>
+        <label htmlFor="email">Email</label>
+        <input type="text" id="email" placeholder="example@gmail.com" />
+      </Box>
+      <Box>
+        <label htmlFor="subject">Subject</label>
+        <input type="text" id="subject" placeholder="Lorem" />
+      </Box>
+      <Box>
+        <label htmlFor="message">Message</label>
+        <textarea id="message" placeholder="Lorem"></textarea>
+      </Box>
     </Box>
   );
 }
