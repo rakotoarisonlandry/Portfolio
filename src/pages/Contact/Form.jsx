@@ -8,7 +8,7 @@ function Form() {
         <Box className="single-Form">
           <label htmlFor="name">Your Name</label>
           <Box>
-            <input type="text" id="name" placeholder="ex: Rakoto" />
+            <input className="input-form" type="text" id="name" placeholder="ex: Rakoto" />
           </Box>
         </Box>
         <Box className="single-Form">
