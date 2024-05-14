@@ -5,7 +5,8 @@ function Form() {
   return (
     <Box>
       <Box>
-        Form
+        <label htmlFor="name">Nom</label>
+        <input type="text" placeholder='Votre nom'/>
       </Box>
     </Box>
   )
