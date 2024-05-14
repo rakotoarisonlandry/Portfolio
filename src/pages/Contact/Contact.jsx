@@ -46,7 +46,7 @@ function Contact() {
             <Link className="Link-component">
               <FaLinkedinIn />
             </Link>
-            <Link className="Link-component">
+            <Link to="https://github.com/rakotoarisonlandry" className="Link-component">
               <FiGithub />
             </Link>
           </Box>
