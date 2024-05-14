@@ -4,7 +4,7 @@ import React from "react";
 function Form() {
   return (
     <Box>
-      <Box className="Form-First-input">
+      <Box className="flex-input">
         <Box>
           <label htmlFor="name">Your Name</label>
           <input type="text" placeholder="ex:Rakoto" />
