@@ -168,7 +168,7 @@
 //Contact
 
 .Contact-Container {
-  margin-top: 40px;
+  padding: 10px 0px 0 -10px;
   // margin: auto 50;
   width: 160vh;
   .container-Title {
@@ -187,7 +187,7 @@
     width: 100%;
     margin-top: 100px;
     .container-typography {
-      width: 29% !important;
+      width: 25% !important;
       .name-Typography {
         font-size: 14px;
         font-weight: 900;
@@ -231,28 +231,82 @@
         }
         img:hover {
           transform: scale(0.99);
-          background-color: rgba(0, 0, 0, 0.5)
+          background-color: rgba(0, 0, 0, 0.5);
         }
       }
     }
   }
 }
-//Form Content
-.Form-Container{
-  .Form-First-input-Flex{
+// Form Content
+.Form-Container {
+  margin: auto -150px;
+  .send-Form{
+    text-align: center;
+    background-color: #9b46e4;
+    padding:2% 42.4%;
+    margin-top: 5px;
+    color: #ffffff;
+  }
+  .send-Form:active ,.send-Form:hover{
+    text-align: center;
+    background-color: #5c3f74;
+    padding:2% 42.4%;
+    margin-top: 5px;
+    color: #ffffff;
+  }
+  font-family: "Poppins",sans-serif ;
+  .Form-First-input-Flex {
     display: flex;
     justify-content: space-around;
-    .single-Form{
-      .input-form{
-        background-color: #101010;
-        padding: 5px 10px;
+    .single-Form {
+      padding-right: 40px;
+      .input-form {
+        background-color: #0D0B0B;
+        padding: 9px 18px;
         border-radius: 5px;
+        width: 206px;
+        &::placeholder {
+          font-size: 13px;
+          font-weight: bold;
+        }
       }
     }
   }
-  .single-Form{
-    .input-form{
-      background-color: #101010;
+  .single-Form {
+    padding-bottom: 10px;
+    label {
+      font-size: 14px;
+      font-weight: 900;
+      margin-bottom: 10px !important;
+    }
+    .input-form {
+      background-color: #0D0B0B;
+      padding: 9px 18px;
+      border-radius: 5px;
+      width: 484px;
+      border: none;
+      &::placeholder {
+        font-size: 13px;
+        font-weight: 900;
+      }
+    }
+    .input-form :active {
+      background-color: #0D0B0B;
+      padding: 9px 18px;
+      border-radius: 5px;
+      width: 484px;
+      border: 1px solid #9b46e4;
+      
+    }
+    .input-form-last {
+      background-color: #0D0B0B;
+      padding: 9px 18px;
+      border-radius: 5px;
+      width: 484px;
+      border: none;
+      height: 187px;
     }
   }
 }
+
+
