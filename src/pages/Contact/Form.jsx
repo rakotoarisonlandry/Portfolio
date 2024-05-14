@@ -4,16 +4,28 @@ import React from "react";
 function Form() {
   return (
     <Box>
-      <Box>
+      <Box className="Form-First-input">
         <Box>
-          <label htmlFor="name">Nom</label>
-          <input type="text" placeholder="Votre nom" />
+          <label htmlFor="name">Your Name</label>
+          <input type="text" placeholder="ex:Rakoto" />
         </Box>
         <Box>
-          <label htmlFor="firstName">Prenom</label>
-          <input type="text" placeholder="Votre Votre Prenom" />
+          <label htmlFor="PhoneNumber">Phone Number</label>
+          <input type="text" placeholder="xxxxxxxxxx" />
         </Box>
       </Box>
+        <Box>
+          <label htmlFor="Email">Email</label>
+          <input type="text" placeholder="example@gmail.com" />
+        </Box>
+        <Box>
+          <label htmlFor="Subject">Subject</label>
+          <input type="text" placeholder="Lorem" />
+        </Box>
+        <Box>
+          <label htmlFor="Message">Message</label>
+          <input type="text" placeholder="Lorem" />
+        </Box>
     </Box>
   );
 }
