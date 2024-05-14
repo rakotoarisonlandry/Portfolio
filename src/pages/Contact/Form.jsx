@@ -3,28 +3,38 @@ import { Box } from "@mui/material";
 
 function Form() {
   return (
-    <Box>
-      <Box className="Form-First-input">
-        <Box>
+    <Box className="Form-Container">
+      <Box className="Form-First-input-Flex">
+        <Box className="single-Form">
           <label htmlFor="name">Your Name</label>
-          <input type="text" id="name" placeholder="ex: Rakoto" />
+          <Box>
+            <input type="text" id="name" placeholder="ex: Rakoto" />
+          </Box>
         </Box>
-        <Box>
+        <Box className="single-Form">
           <label htmlFor="phoneNumber">Phone Number</label>
-          <input type="text" id="phoneNumber" placeholder="xxxxxxxxxx" />
+          <Box>
+            <input type="text" id="phoneNumber" placeholder="xxxxxxxxxx" />
+          </Box>
         </Box>
       </Box>
-      <Box>
+      <Box className="single-Form">
         <label htmlFor="email">Email</label>
-        <input type="text" id="email" placeholder="example@gmail.com" />
+        <Box>
+          <input type="text" id="email" placeholder="example@gmail.com" />
+        </Box>
       </Box>
-      <Box>
+      <Box className="single-Form">
         <label htmlFor="subject">Subject</label>
-        <input type="text" id="subject" placeholder="Lorem" />
+        <Box>
+          <input type="text" id="subject" placeholder="Lorem" />
+        </Box>
       </Box>
-      <Box>
+      <Box className="single-Form">
         <label htmlFor="message">Message</label>
-        <textarea id="message" placeholder="Lorem"></textarea>
+        <Box>
+          <textarea id="message" placeholder="Lorem"></textarea>
+        </Box>
       </Box>
     </Box>
   );
