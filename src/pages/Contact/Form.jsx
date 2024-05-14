@@ -14,26 +14,26 @@ function Form() {
         <Box className="single-Form">
           <label htmlFor="phoneNumber">Phone Number</label>
           <Box>
-            <input type="text" id="phoneNumber" placeholder="xxxxxxxxxx" />
+            <input className="input-form" type="text" id="phoneNumber" placeholder="xxxxxxxxxx" />
           </Box>
         </Box>
       </Box>
       <Box className="single-Form">
         <label htmlFor="email">Email</label>
         <Box>
-          <input type="text" id="email" placeholder="example@gmail.com" />
+          <input className="input-form" type="text" id="email" placeholder="example@gmail.com" />
         </Box>
       </Box>
       <Box className="single-Form">
         <label htmlFor="subject">Subject</label>
         <Box>
-          <input type="text" id="subject" placeholder="Lorem" />
+          <input className="input-form" type="text" id="subject" placeholder="Lorem" />
         </Box>
       </Box>
       <Box className="single-Form">
         <label htmlFor="message">Message</label>
         <Box>
-          <textarea id="message" placeholder="Lorem"></textarea>
+          <textarea className="input-form" id="message" placeholder="Lorem"></textarea>
         </Box>
       </Box>
     </Box>

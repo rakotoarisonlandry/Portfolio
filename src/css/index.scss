@@ -243,7 +243,16 @@
     display: flex;
     justify-content: space-around;
     .single-Form{
-
+      .input-form{
+        background-color: #101010;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+    }
+  }
+  .single-Form{
+    .input-form{
+      background-color: #101010;
     }
   }
 }
