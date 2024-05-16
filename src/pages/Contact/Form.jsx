@@ -1,6 +1,7 @@
 import React from "react";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
+import { FiSend } from "react-icons/fi";
 function Form() {
   return (
     <Box className="Form-Container">
@@ -61,7 +62,8 @@ function Form() {
         </Box>
       </Box>
       <Link className="send-Form">
-        Send
+        <Typography variant="h6">Send</Typography>
+        {/* <FiSend/> */}
       </Link>
     </Box>
   );
