@@ -243,10 +243,12 @@
   .send-Form {
     text-align: center;
     background-color: #9b46e4;
-    padding: 2% 30%;
+    padding: 2% 42.4%;
     margin-top: 5px;
     color: #ffffff;
+    width: fit-content;
     display: flex;
+    border-radius: 5px;
     align-items: center;
     }
   .send-Form:active,

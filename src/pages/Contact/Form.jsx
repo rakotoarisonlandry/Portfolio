@@ -62,7 +62,7 @@ function Form() {
         </Box>
       </Box>
       <Link className="send-Form">
-        <Typography variant="h6">Send</Typography>
+        <Typography variant="body1">Send</Typography>
         {/* <FiSend/> */}
       </Link>
     </Box>
