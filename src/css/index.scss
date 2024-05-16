@@ -240,28 +240,31 @@
 // Form Content
 .Form-Container {
   margin: auto -100px;
-  .send-Form{
+  .send-Form {
     text-align: center;
     background-color: #9b46e4;
-    padding:2% 42.4%;
+    padding: 2% 30%;
     margin-top: 5px;
     color: #ffffff;
-  }
-  .send-Form:active ,.send-Form:hover{
+    display: flex;
+    align-items: center;
+    }
+  .send-Form:active,
+  .send-Form:hover {
     text-align: center;
     background-color: #5c3f74;
-    padding:2% 42.4%;
+    padding: 2% 42.4%;
     margin-top: 5px;
     color: #ffffff;
   }
-  font-family: "Poppins",sans-serif ;
+  font-family: "Poppins", sans-serif;
   .Form-First-input-Flex {
     display: flex;
     justify-content: space-around;
     .single-Form {
       padding-right: 40px;
       .input-form {
-        background-color: #0D0B0B;
+        background-color: #0d0b0b;
         padding: 9px 18px;
         border-radius: 5px;
         width: 206px;
@@ -280,7 +283,7 @@
       margin-bottom: 10px !important;
     }
     .input-form {
-      background-color: #0D0B0B;
+      background-color: #0d0b0b;
       padding: 9px 18px;
       border-radius: 5px;
       width: 484px;
@@ -291,15 +294,14 @@
       }
     }
     .input-form :active {
-      background-color: #0D0B0B;
+      background-color: #0d0b0b;
       padding: 9px 18px;
       border-radius: 5px;
       width: 484px;
       border: 1px solid #9b46e4;
-      
     }
     .input-form-last {
-      background-color: #0D0B0B;
+      background-color: #0d0b0b;
       padding: 9px 18px;
       border-radius: 5px;
       width: 484px;
@@ -308,5 +310,3 @@
     }
   }
 }
-
-
