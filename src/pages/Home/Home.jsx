@@ -15,7 +15,7 @@ function Home() {
         <Box className="Home-container">
           <img src={hello} alt="" className="Home-hello" />
           <Typography variant="h4" fontWeight="900" className="Home-Title">
-            <span>I'm</span> Landry RAKOTOARISON
+            <span >I'm</span> Landry RAKOTOARISON
           </Typography>
           <TypeAnimation
             sequence={["Developer", 1000, "Developer & Designer", 1000]}
