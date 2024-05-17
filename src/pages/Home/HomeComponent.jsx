@@ -28,9 +28,12 @@ function HomeComponent() {
         </span>
         <span>
           <img src={Front} alt="" className="img-fast" />
-        </span> 
+        </span>
         <span>
           <img src={Back} alt="" className="img-fast" />
+        </span>
+        <span>
+          <img src={Front} alt="" className="img-fast" />
         </span>
       </Marquee>
     </Box>
