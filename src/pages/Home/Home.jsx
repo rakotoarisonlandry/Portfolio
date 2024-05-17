@@ -1,12 +1,12 @@
 import React from "react";
-import { Box, Typography } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from "react-type-animation";
 import HomeComponent from "./HomeComponent";
 import Blur from "../../../public/assets/img/blur.svg";
 import hello from "../../../public/assets/img/stock-vector-hi-hello-banner-speech-bubble-poster-and-sticker-concept-with-text-hello-white-bubble-message-1505210795-removebg-preview.png";
 import portrait from "../../../public/assets/img/portrait.svg";
-
+import Contact from "../Contact/Contact";
 function Home() {
   return (
     <Box>
@@ -18,7 +18,7 @@ function Home() {
             <span>I'm</span> Landry RAKOTOARISON
           </Typography>
           <TypeAnimation
-            sequence={["Developer",1000, "Developer & Designer",1000]}
+            sequence={["Developer", 1000, "Developer & Designer", 1000]}
             speed={50}
             wrapper="h4"
             repeat={Infinity}
@@ -28,9 +28,9 @@ function Home() {
             IT student at ENI
           </Typography>
           <Typography variant="body2" className="Typo-body2">
-            Explore my diverse range of projects where creativity and
-            technology intersect, and get inspired! I hope you enjoy
-            discovering my work as much as I enjoyed creating it.
+            Explore my diverse range of projects where creativity and technology
+            intersect, and get inspired! I hope you enjoy discovering my work as
+            much as I enjoyed creating it.
           </Typography>
           <Link className="home-Link" to="/contact">
             <button className="home-Button">Contact Me</button>
@@ -39,6 +39,9 @@ function Home() {
         <img src={portrait} alt="" className="Home-portrait" />
       </Box>
       <HomeComponent />
+      {/* <Container> */}
+        <Contact />
+      {/* </Container> */}
     </Box>
   );
 }
