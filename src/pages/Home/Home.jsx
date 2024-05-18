@@ -41,8 +41,8 @@ function Home() {
       </Box>
       <HomeComponent />
       {/* <Container> */}
-      <About/>
-        <Contact />
+      {/* <About/>
+        <Contact /> */}
       {/* </Container> */}
     </Box>
   );
