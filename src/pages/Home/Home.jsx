@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 import HomeComponent from "./HomeComponent";
 import Blur from "../../../public/assets/img/blur.svg";
 import hello from "../../../public/assets/img/stock-vector-hi-hello-banner-speech-bubble-poster-and-sticker-concept-with-text-hello-white-bubble-message-1505210795-removebg-preview.png";
-import portrait from "../../../public/assets/img/portrait.svg";
+import portrait from "../../../public/assets/img/test.svg";
 import Contact from "../Contact/Contact";
 import About from "../About/About";
 function Home() {
