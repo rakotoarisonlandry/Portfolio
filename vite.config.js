@@ -6,4 +6,5 @@ export default defineConfig({
   css: {
     postcss: './postcss.config.cjs', // Utilisez le chemin correct si vous avez renommé le fichier
   },
+  assetsInclude: ['**/*.PNG', '**/*.png'],
 })
