@@ -16,14 +16,14 @@ function Contact() {
         </Typography>
       </Container>
       <Box className="flex ">
-        <Box className="w-[56vh] mr-32">
+        <Box className="w-[40vh] mr-48 text-justify">
           <Box className="rounded-[5px]">
             <img src={respect} alt="" className="rounded-[5px]" width="300px" height="170px" />
           </Box>
           <Typography variant='Body1' className="font-extrabold">
             RAKOTOARISON Tsaraefadahy Landry Brigea
           </Typography>
-          <Typography variant="caption" className="">
+          <Typography variant="body2" className="">
             I am available for freelance work. Connect with me via Email and
             call in to my account
           </Typography>
