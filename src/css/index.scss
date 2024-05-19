@@ -3,12 +3,12 @@
   background-color: #000000;
   height: 102vh;
   margin-top: -14px;
-  max-width:249px !important;
-  position:fixed;
+  max-width: 249px !important;
+  position: fixed;
   z-index: 2;
   top: 0;
   bottom: 0;
-  .sideBarImg { 
+  .sideBarImg {
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -31,9 +31,8 @@
     }
     .SideBar-icon {
       padding-right: 18px;
-      width:3rem;
+      width: 3rem;
       height: 3rem;
-      
     }
   }
 }
@@ -150,7 +149,7 @@
   margin: 111px 0 50px 0;
   overflow: hidden;
   padding: 0;
-  background-image: linear-gradient(90deg, #8720DF, #670D5E);
+  background-image: linear-gradient(90deg, #8720df, #670d5e);
 
   .fast-marque {
     overflow: hidden;
@@ -176,77 +175,7 @@
   }
 }
 
-//Contact
-.Contact-Container {
-  padding: 10px 0px 0 -10px;
-  margin-left: 200px;
-  width: 160vh;
-  .container-Title {
-    .contact-Title {
-      text-align: center;
-      justify-content: center;
-      margin: 20px 50% !important;
-      font-size: 24px;
-      padding-top: 20px !important;
-      font-weight: 600;
-    }
-  }
-  .Form-contact-container {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 100px;
-    .container-typography {
-      width: 27% !important;
-      .name-Typography {
-        font-size: 14px;
-        font-weight: 900;
-        padding-bottom: 10px;
-      }
-      .caption-typo {
-        padding: 1px 0 15px 0;
-      }
-      .email-typo {
-        padding: 1px 0 15px 0;
-        .component-Number {
-          font-weight: 800;
-        }
-      }
-      .find-typo {
-        padding: 1px 0 15px 0;
-      }
-      .social-Link {
-        display: flex;
-        .Link-component {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 30px;
-          height: 30px;
-          border-radius: 50%;
-          margin: 0 5px;
-          background-color: #fff;
-          color: #000;
-          transition: background-color 0.3s;
-
-          &:hover {
-            background-color: #9b46e4;
-          }
-        }
-      }
-      .Img-Contact {
-        img {
-          border-radius: 15px;
-          transition: transform 0.3s ease-in-out;
-        }
-        img:hover {
-          transform: scale(0.99);
-          background-color: rgba(0, 0, 0, 0.5);
-        }
-      }
-    }
-  }
-}
+//Contact 
 // Form Content
 .Form-Container {
   margin: auto -100px;
@@ -260,7 +189,7 @@
     display: flex;
     border-radius: 5px;
     align-items: center;
-    }
+  }
   .send-Form:active,
   .send-Form:hover {
     text-align: center;
