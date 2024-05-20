@@ -17,13 +17,21 @@ function Contact() {
       </Container>
       <Box className="flex ">
         <Box className="w-[40vh] mr-48 text-justify">
-          <Box className="rounded-[5px]">
-            <img src={respect} alt="" className="rounded-[15px]" width="300px" height="170px" />
+          <Box className="rounded-[5px] pb-3">
+            <img
+              src={respect}
+              alt=""
+              className="rounded-[15px]"
+              width="300px"
+              height="170px"
+            />
           </Box>
-          <Typography variant='Body1' className="font-extrabold">
-            RAKOTOARISON Tsaraefadahy Landry Brigea
-          </Typography>
-          <Typography variant="body2" className="">
+          <Box className="pb-4">
+            <Typography variant="Body1" className="font-extrabold ">
+              RAKOTOARISON Tsaraefadahy Landry Brigea
+            </Typography>
+          </Box>
+          <Typography variant="body2" className="pb-3">
             I am available for freelance work. Connect with me via Email and
             call in to my account
           </Typography>
@@ -31,15 +39,12 @@ function Contact() {
             Phone: <span className="">+261340508180</span>
           </Typography>
           <Typography variant="body2" className="">
-            Emails:{" "}
-            <span className="">
-              Rakotorisonlandry@gmail.com
-            </span>
+            Emails: <span className="">Rakotorisonlandry@gmail.com</span>
           </Typography>
-          <Typography variant="body2" className="">
+          <Typography variant="body2" className="pt-3 pb-3">
             FIND ME WITH
           </Typography>
-          <Box className="">
+          <Box className="flex space-x-4">
             <Link className="">
               <FaFacebookF />
             </Link>
