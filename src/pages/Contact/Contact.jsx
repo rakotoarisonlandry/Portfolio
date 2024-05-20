@@ -9,16 +9,16 @@ import { Link } from "react-router-dom";
 import respect from "../../../public/assets/img/92f66ceb28916af6e1aeb8d5e8054f3c-1000x640.jpg";
 function Contact() {
   return (
-    <Box className="ml-[350px] w-[140vh]">
+    <Box className="ml-[350px] h-[100vh] w-[140vh]">
       <Container className="text-center">
-        <Typography variant="H2" className="">
+        <Typography variant="h5" className="pb-32 pt-10 font-extrabold">
           Contact Me
         </Typography>
       </Container>
       <Box className="flex ">
         <Box className="w-[40vh] mr-48 text-justify">
           <Box className="rounded-[5px]">
-            <img src={respect} alt="" className="rounded-[5px]" width="300px" height="170px" />
+            <img src={respect} alt="" className="rounded-[15px]" width="300px" height="170px" />
           </Box>
           <Typography variant='Body1' className="font-extrabold">
             RAKOTOARISON Tsaraefadahy Landry Brigea
