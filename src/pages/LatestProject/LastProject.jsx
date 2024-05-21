@@ -40,7 +40,7 @@ function LastProject() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </Typography>
       </Box>
-      <Box className="w-[184vh] h-96 ml-[200px]  my-12">
+      <Box className="w-[180vh] h-96 ml-[200px]  my-12">
         <Marquee
           gradient={false}
           speed={50}
@@ -52,7 +52,7 @@ function LastProject() {
         >
           {skillsData.map((skill) => (
             <Box
-              className="w-24 min-w-fit h-80 flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg group relative hover:scale-[0.98] cursor-pointer"
+              className="w-24 min-w-fit h-80 flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg group relative hover:scale-[1.1] cursor-pointer"
               key={skill.index}
             >
               <Box className="h-full w-80 rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 group-hover:border-violet-500 transition-all duration-500">
