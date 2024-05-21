@@ -26,7 +26,7 @@ a:hover {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #101010;
   margin: 0;
   display: flex;
@@ -70,4 +70,11 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.particle canvas {
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
