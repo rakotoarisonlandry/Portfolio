@@ -175,7 +175,20 @@
   }
 }
 
-//Contact 
+//Contact
+.Contact-Container {
+  .Contact-Title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+  }
+  .Content-Contact {
+    .info-Contact {
+      .typo {
+        font-family: "Poppins", sans-serif;
+      }
+    }
+  }
+}
 // Form Content
 .Form-Container {
   margin: auto -100px;
