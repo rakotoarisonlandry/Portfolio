@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { Typography } from "@mui/material";
 function SocialLink() {
   return (
-    <Box className="fixed left-96 space-y-3 block text-left ml-[-80px] mr-11">
+    <Box className="fixed left-96 space-y-3 block text-left ml-[-100px] mr-11">
       <Link className="  p-3  border-[#9b46e4]  hover:text-[#fff]">
         <FaFacebookF />
       </Link>
