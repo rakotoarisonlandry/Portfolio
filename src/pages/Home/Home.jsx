@@ -9,11 +9,13 @@ import hello from "../../../public/assets/img/stock-vector-hi-hello-banner-speec
 import portrait from "../../../public/assets/img/test.svg";
 import Contact from "../Contact/Contact";
 import About from "../About/About";
+import SocialLink from "../../component/socialicon/SocialLink";
 function Home() {
   return (
     <Box>
       <img src={Blur} alt="" className="Home-img-blur" />
       <Box className="Home-Body">
+        <SocialLink />
         <Box className="Home-container">
           <img src={hello} alt="" className="Home-hello" />
           <Typography variant="h4" fontWeight="900" className="Home-Title">
@@ -36,7 +38,7 @@ function Home() {
           </Typography>
           <Link className="home-Link" to="/contact">
             <button className="home-Button flex">
-              <MdOutlinePermContactCalendar className="text-[20px] mr-3"/>
+              <MdOutlinePermContactCalendar className="text-[20px] mr-3" />
               Contact Me
             </button>
           </Link>
