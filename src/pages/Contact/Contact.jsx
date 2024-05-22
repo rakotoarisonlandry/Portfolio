@@ -6,6 +6,8 @@ import { FiGithub } from "react-icons/fi";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdAttachEmail } from "react-icons/md";
 import respect from "../../../public/assets/img/92f66ceb28916af6e1aeb8d5e8054f3c-1000x640.jpg";
 function Contact() {
   return (
@@ -13,7 +15,7 @@ function Contact() {
       <Container className="text-center">
         <Typography
           variant="h5"
-          className="Contact-Title pb-32 pt-10 font-extrabold"
+          className="Contact-Title pb-20 pt-10 font-extrabold"
         >
           Contact Me
         </Typography>
@@ -40,11 +42,13 @@ function Contact() {
               call in to my account
             </Typography>
           </Box>
-          <Typography variant="body2" className="">
-            Phone: <span className="typo">+261340508180</span>
+          <Typography variant="body2" className="flex space-x-5">
+            <FaPhoneAlt />
+            <Box className="font-bold">+261340508180</Box>
           </Typography>
-          <Typography variant="body2" className="">
-            Emails: <span className="typo">Rakotorisonlandry@gmail.com</span>
+          <Typography variant="body2" className="flex space-x-5 justify-center items-center">
+            <MdAttachEmail className="text-[40px]"/>
+            <Box className="typo">Rakotorisonlandry@gmail.com</Box>
           </Typography>
           <Typography variant="body2" className="pt-3 pb-3 typo">
             FIND ME WITH
@@ -56,7 +60,10 @@ function Contact() {
             <Link className="border-[1px] rounded-full p-3 border-[#9b46e4] hover:bg-[#9b46e4] hover:text-[#fff]">
               <FaLinkedinIn />
             </Link>
-            <Link to="https://github.com/rakotoarisonlandry" className="border-[1px] rounded-full p-3 border-[#9b46e4] hover:bg-[#9b46e4] hover:text-[#fff]">
+            <Link
+              to="https://github.com/rakotoarisonlandry"
+              className="border-[1px] rounded-full p-3 border-[#9b46e4] hover:bg-[#9b46e4] hover:text-[#fff]"
+            >
               <FiGithub />
             </Link>
           </Box>
