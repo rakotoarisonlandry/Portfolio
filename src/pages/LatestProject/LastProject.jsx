@@ -11,22 +11,22 @@ function LastProject() {
     {
       index: "1",
       img: "/assets/img/Blog.PNG", // Ensure the image path is correct relative to your public folder
-      title: "Skill 1",
+      title: "Blog App",
     },
     {
       index: "2",
       img: "/assets/img/IHM.PNG", // Ensure the image path is correct relative to your public folder
-      title: "Skill 2",
+      title: "E-commerce",
     },
     {
       index: "3",
       img: "/assets/img/team.PNG", // Ensure the image path is correct relative to your public folder
-      title: "Skill 3",
+      title: "Portfolio team",
     },
     {
       index: "4",
       img: "/assets/img/chatt.PNG", // Ensure the image path is correct relative to your public folder
-      title: "Skill 4",
+      title: "E-resaka",
     },
   ];
 
