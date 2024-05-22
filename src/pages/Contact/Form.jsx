@@ -61,10 +61,7 @@ function Form() {
           ></textarea>
         </Box>
       </Box>
-      <Link className="send-Form">
-        <Typography variant="body1">Send</Typography>
-        {/* <FiSend/> */}
-      </Link>
+      <Link className="ml-1 mt-1 pt-3 text-white hover:text-white pb-3 pl-56 pr-52 text-center items-center bg-[#9b46e4] hover:bg-[] ">Send</Link>
     </Box>
   );
 }
