@@ -32,7 +32,7 @@ function LastProject() {
 
   return (
     <Box className="h-[100vh]">
-      <Box className=" text-center pt-7 pb-4">
+      <Box className=" text-center ml-10 pt-7 pb-4">
         <Typography variant="h5" >My latest Project</Typography>
       </Box>
       <Box className=" pb-7 text-center">
