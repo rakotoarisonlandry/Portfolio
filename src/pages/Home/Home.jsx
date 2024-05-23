@@ -36,7 +36,7 @@ function Home() {
             intersect, and get inspired! I hope you enjoy discovering my work as
             much as I enjoyed creating it.
           </Typography>
-          <Link className="home-Link" to="/contact">
+          <Link className="home-Link " to="/contact">
             <button className="home-Button flex">
               <MdOutlinePermContactCalendar className="text-[20px] mr-3" />
               Contact Me
