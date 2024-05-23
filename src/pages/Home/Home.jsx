@@ -36,20 +36,19 @@ function Home() {
             intersect, and get inspired! I hope you enjoy discovering my work as
             much as I enjoyed creating it.
           </Typography>
-          <Link className="home-Link " to="/contact">
-            <button className="home-Button flex">
-              <MdOutlinePermContactCalendar className="text-[20px] mr-3" />
-              Contact Me
-            </button>
-          </Link>
+          <Box className="flex items-center space-x-8">
+            <Link className="home-Link " to="/contact">
+              <button className="home-Button flex">
+                <MdOutlinePermContactCalendar className="text-[20px] mr-3" />
+                Contact Me
+              </button>
+            </Link>
+            <Link className="font-bold text-[#9b46e4]">Telecharger mon CV</Link>
+          </Box>
         </Box>
         <img src={portrait} alt="" className="Home-portrait" />
       </Box>
       <HomeComponent />
-      {/* <Container> */}
-      {/* <About/>
-        <Contact /> */}
-      {/* </Container> */}
     </Box>
   );
 }
