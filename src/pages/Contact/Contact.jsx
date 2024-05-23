@@ -46,8 +46,11 @@ function Contact() {
             <FaPhoneAlt />
             <Box className="font-bold">+261340508180</Box>
           </Typography>
-          <Typography variant="body2" className="flex space-x-5 justify-center items-center">
-            <MdAttachEmail className="text-[40px]"/>
+          <Typography
+            variant="body2"
+            className="flex space-x-5 justify-center items-center"
+          >
+            <MdAttachEmail className="text-[40px]" />
             <Box className="typo">Rakotorisonlandry@gmail.com</Box>
           </Typography>
           <Typography variant="body2" className="pt-3 pb-3 typo">
