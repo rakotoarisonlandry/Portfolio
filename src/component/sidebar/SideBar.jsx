@@ -15,7 +15,7 @@ function SideBar() {
     <Box>
       <Container className="sideBarContainer">
         <Box component="section">
-          <img src={Logo} alt="Logo" className="sideBarImg" />
+          <img src={Logo} alt="Logo" className="w-24 items-center justify-center mt-[25px] mb-[-34px] ml-[34px]" />
           <Box paddingTop="30px" fontSize="15px" margin="18px 16px 16px 2px">
             <Link to="/" className="sidebar-link-container">
               <Box
