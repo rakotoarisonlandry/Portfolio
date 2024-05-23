@@ -6,7 +6,7 @@ import about from "../../../public/assets/img/about.svg";
 import education from "../../../public/assets/img/Education.svg";
 function About() {
   return (
-    <Box className="ml-[350px] flex justify-around space-x-72 h-full">
+    <Box className="ml-[350px] flex  mt-32 space-x-52 h-full">
       <Box className="border-[#8720DF] shadow-lg shadow-[#8720DF]/50 overflow-hidden pt-7 border-[5px] rounded-[37px]">
         <img src={Landry} alt="" className="hover:scale-105 hover:transition-colors " />
       </Box>
@@ -14,7 +14,7 @@ function About() {
         <Box>
           <img src={about} alt="" />
         </Box>
-        <Typography>RAKOTOARISON Tsaraefadahy Landry Brigea</Typography>
+        <Typography variant="body1" className="font-bold">RAKOTOARISON Tsaraefadahy Landry Brigea</Typography>
         <Box>
           <img src={education} alt="" />
         </Box>
