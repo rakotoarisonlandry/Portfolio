@@ -8,7 +8,7 @@ function About() {
   return (
     <Box className="ml-[350px] flex  mt-32 space-x-52 h-full">
       <Box className="border-[#8720DF] shadow-lg shadow-[#8720DF]/50 overflow-hidden pt-7 border-[5px] rounded-[37px]">
-        <img src={Landry} alt="" className="hover:scale-105 hover:transition-colors " />
+        <img src={Landry} alt="" className="hover:transition-colors " />
       </Box>
       <Box>
         <Box>
