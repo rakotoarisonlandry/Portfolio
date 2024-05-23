@@ -48,6 +48,7 @@ function SideBar() {
                 Skills
               </Box>
             </Link>
+            
             <Link to="/contact" className="sidebar-link-container">
               <Box display="flex" alignItems="center" className="sidebar-Link">
                 <PermContactCalendarIcon className="SideBar-icon" />
