@@ -173,6 +173,13 @@
         width: 200%;
         z-index: 1;
       }
+      @media only screen and (min-width: 1536px) {
+        .img-fast {
+          height: 25px;
+          width: 280%;
+          z-index: 1;
+        }
+      }
     }
   }
 }
@@ -268,3 +275,4 @@
 }
 
 //responsivity
+//Home responsive
