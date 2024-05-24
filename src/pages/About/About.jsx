@@ -8,15 +8,19 @@ function About() {
   return (
     <Box className="ml-[350px] flex  mt-32 space-x-52 h-full">
       <Box className="border-[#8720DF] shadow-lg shadow-[#8720DF]/50 overflow-hidden pt-7 border-[5px] rounded-[37px]">
-        <img src={Landry} alt="" className="hover:transition-colors " />
+        <img src={Landry} alt="" className=" 2xl:w-[400px]" />
       </Box>
       <Box>
         <Box>
-          <img src={about} alt="" />
+          <img src={about} alt="" className=" 2xl:w-[130px]" />
         </Box>
-        <Typography variant="body1" className="font-bold">RAKOTOARISON Tsaraefadahy Landry Brigea</Typography>
+        <Box className="font-extrabold ">
+          <Typography variant="body1" >
+            RAKOTOARISON Tsaraefadahy Landry Brigea
+          </Typography>
+        </Box>
         <Box>
-          <img src={education} alt="" />
+          <img src={education} alt="" className=" 2xl:w-[130px]" />
         </Box>
       </Box>
     </Box>
