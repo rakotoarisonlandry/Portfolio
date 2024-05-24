@@ -9,6 +9,7 @@ import hello from "../../../public/assets/img/stock-vector-hi-hello-banner-speec
 import portrait from "../../../public/assets/img/test.svg";
 import Contact from "../Contact/Contact";
 import About from "../About/About";
+import { MdFileDownload } from "react-icons/md";
 import SocialLink from "../../component/socialicon/SocialLink";
 function Home() {
   return (
@@ -43,7 +44,9 @@ function Home() {
                 Contact Me
               </button>
             </Link>
-            <Link className="font-bold text-[#9b46e4]">Telecharger mon CV</Link>
+            <Link className="font-bold text-[#9b46e4] hover:underline hover:text-[#fff] flex">
+              Mon CV <MdFileDownload className="text-[20px] ml-3" />
+            </Link>
           </Box>
         </Box>
         <img src={portrait} alt="" className="Home-portrait" />
