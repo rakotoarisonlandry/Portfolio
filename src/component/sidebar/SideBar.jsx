@@ -7,8 +7,8 @@ import { IoMdHome } from "react-icons/io";
 import { colors } from "@mui/material";
 import DomainVerificationIcon from "@mui/icons-material/DomainVerification";
 import { BiInfoSquare } from "react-icons/bi";
-import { MdOutlinePermContactCalendar } from "react-icons/md"
-import GradingIcon from "@mui/icons-material/Grading";
+import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { HiOutlineAcademicCap } from "react-icons/hi";
 import SideBarFooter from "./SideBarFooter";
 function SideBar() {
   return (
@@ -48,7 +48,7 @@ function SideBar() {
             </Link>
             <Link to="/skills" className="sidebar-link-container">
               <Box display="flex" alignItems="center" className="sidebar-Link">
-                <GradingIcon className="SideBar-icon" />
+                <HiOutlineAcademicCap className="SideBar-icon" />
                 Skills
               </Box>
             </Link>
