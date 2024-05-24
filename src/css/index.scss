@@ -74,7 +74,7 @@
   align-items: center;
   justify-content: center;
   margin-left: 318px;
-  margin-top: 90px;
+  margin-top: 36px;
 
   .Home-container {
     width: 50%;
@@ -129,7 +129,7 @@
         font-size: 15px;
         border: 1px solid #9b46e4;
         border-radius: 10px;
-        font-weight: 700;
+        font-weight: 800;
         background-color: #101010;
         &:hover,
         &.active {
@@ -266,3 +266,5 @@
     }
   }
 }
+
+//responsivity
