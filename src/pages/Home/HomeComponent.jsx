@@ -8,7 +8,7 @@ function HomeComponent() {
   return (
     <Box className="fast-Container">
       <Marquee
-        className="fast-marque"
+        className="fast-marque "
         gradient={false}
         speed={60}
         pauseOnHover={true}
@@ -18,22 +18,22 @@ function HomeComponent() {
         direction="left"
       >
         <span>
-          <img src={Front} alt="" className="img-fast" />
+          <img src={Front} alt="" className="img-fast 2xl:w-[300%]" />
         </span>
         <span>
-          <img src={Back} alt="" className="img-fast" />
+          <img src={Back} alt="" className="img-fast 2xl:w-[300%]" />
         </span>
         <span>
-          <img src={design} alt="" className="img-fast" />
+          <img src={design} alt="" className="img-fast 2xl:w-[300%]" />
         </span>
         <span>
-          <img src={Front} alt="" className="img-fast" />
+          <img src={Front} alt="" className="img-fast 2xl:w-[300%]" />
         </span>
         <span>
-          <img src={Back} alt="" className="img-fast" />
+          <img src={Back} alt="" className="img-fast 2xl:w-[300%]" />
         </span>
         <span>
-          <img src={Front} alt="" className="img-fast" />
+          <img src={Front} alt="" className="img-fast 2xl:w-[300%]" />
         </span>
       </Marquee>
     </Box>

@@ -19,7 +19,7 @@ function Home() {
         <SocialLink />
         <Box className="Home-container">
           <img src={hello} alt="" className="Home-hello" />
-          <Typography variant="h4" fontWeight="900" className="Home-Title">
+          <Typography variant="h4" fontWeight="900" className= " Home-Title">
             <span>I'm</span> Landry RAKOTOARISON
           </Typography>
           <TypeAnimation
