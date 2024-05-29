@@ -32,7 +32,7 @@ function SocialLink() {
       <Typography
         variant="body2"
         sx={{ ml: "-32px" }}
-        className=" rotate-[-90deg] w-20 text-[#fff] text-[15px]"
+        className=" rotate-[-90deg] w-20 text-[#fff] 2xl:text-[150px] text-[15px]"
       >
         Follow me
       </Typography>
