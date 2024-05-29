@@ -18,7 +18,7 @@ function Home() {
       <Box className="Home-Body">
         <SocialLink />
         <Box className="Home-container">
-          <img src={hello} alt="" className="Home-hello" />
+          <img src={hello} alt="" className="Home-hello " />
           <Typography variant="h4" fontWeight="900" className= " Home-Title">
             <span>I'm</span> Landry RAKOTOARISON
           </Typography>
@@ -44,7 +44,7 @@ function Home() {
                 Contact Me
               </button>
             </Link>
-            <Link className="font-bold text-[#9b46e4] hover:underline hover:text-[#fff] flex">
+            <Link className="font-bold text-[#9b46e4] z-20 cursor-pointer hover:underline hover:text-[#fff] flex">
               Mon CV <MdFileDownload className="text-[20px] ml-3" />
             </Link>
           </Box>
