@@ -32,17 +32,17 @@ function LastProject() {
 
   return (
     <Box className="h-[100vh]">
-      <Box className=" text-center ml-10 pt-7 pb-4">
-        <Typography variant="h5" >My latest Project</Typography>
+      <Box className=" text-center ml-10 pt-7 pb-4 ">
+        <h5  className="2xl:text-[30px]">My latest Project</h5>
       </Box>
-      <Box className=" pb-7 text-center">
-        <Typography variant="body2"  >
+      <Box className=" pb-7 text-center ">
+        <p   >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </Typography>
+        </p>
       </Box>
-      <Box className="w-[180vh] h-96 ml-[200px]  my-12">
+      <Box className="w-[175vh] 2xl:w-[180vh] h-full ml-[230px]  my-12">
         <Marquee
-          gradient={false}
+          gradient={false}  
           speed={50}
           pauseOnHover={true}
           pauseOnClick={true}
@@ -52,10 +52,10 @@ function LastProject() {
         >
           {skillsData.map((skill) => (
             <Box
-              className="w-24 min-w-fit h-80 flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg group relative hover:scale-[1.1] cursor-pointer"
+              className="w-24 2xl:w-52 min-w-fit h-80 2xl:h-[50vh] flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg group relative hover:scale-[1.1] cursor-pointer"
               key={skill.index}
             >
-              <Box className="h-full w-80 rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 group-hover:border-violet-500 transition-all duration-500">
+              <Box className="h-full 2xl:h-[80vh] w-80 2xl:w-[50vh] rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 group-hover:border-violet-500 transition-all duration-500">
                 <Box className="flex -translate-y-[1px] justify-center">
                   <Box className="w-3/4">
                     <Box className="h-[1px] w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent" />
@@ -73,7 +73,7 @@ function LastProject() {
                 </Box>
                 <Box className="mx-7 flex space-x-7">
                   <Box>
-                    <Link className="text-[#4CFBF6] text-[10px]">Demo</Link>
+                    <Link to="nyhavana.onrender.com" className="text-[#4CFBF6] text-[10px]">Demo</Link>
                   </Box>
                   <Box className=" ">
                     <Link className="text-[10px] text-[#fff] pt-1 pb-1 pl-3 pr-3 hover:bg-[#4CFBF6] hover:text-black rounded-xl bg-[#8720DF]">repos</Link>
