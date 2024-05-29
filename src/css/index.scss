@@ -88,7 +88,11 @@
       font-family: "Poppins", sans-serif;
       color: #9b46e4;
       font-size: 30px;
-
+      @media only screen and (min-width: 1536px) {
+        .Home-Title {
+          font-size: 100px;
+        }
+      }
       span {
         color: #ffffff;
         font-weight: 600;
